@@ -31,6 +31,11 @@
       <div class="post-content">
         {{ .Content }}
       </div>
+
+      <div>
+        {{ template "_internal/disqus.html" . }}
+      </div>
+
     </div>
   </div>
   <div class="pure-u-1-24 pure-u-md-1-6"></div>
